@@ -1,0 +1,129 @@
+body{
+    background-color: gray;
+    font-size: x-large;
+}
+h1 {
+    text-shadow: 2px 2px 2px green;
+}
+.title{
+text-align: center;
+border-style: solid;
+margin-left: 790px;
+width: 320px;
+border-radius: 10px;
+margin-top: 10px;
+border-width: 5px;
+}
+
+.info{
+    border-style: solid;
+    margin-top: 10px;
+    padding: 5px;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 30%;
+    float: left;
+}
+
+img{
+    width: 550px;
+}
+.slideshow-container {
+    max-width: 650px;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+
+    
+  }
+
+  .mySlides {
+    display: all;
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+   
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  .kärnkraft {
+    -webkit-animation-name: kärnkraft;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    text-align: center;
+  }
+  
+  @-webkit-keyframes kärnkraft {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes kärnkraft {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }

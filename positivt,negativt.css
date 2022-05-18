@@ -1,0 +1,147 @@
+body{
+    background-color: gray;
+    font-size: x-large;
+}
+h1{
+    text-shadow: 2px 2px 2px red;
+}
+h2{
+    text-shadow: 2px 2px 2px red;
+}
+.title{
+    border-width: 5px;
+    text-align: center;
+    border-style: solid;
+    width: fit-content;
+    margin-left: 720px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+}
+.positivt{
+    border-width: 5px;
+    border-style: solid;
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+    height: 500px;
+    border-radius: 10px;
+}
+.negativt{
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 5px;
+    width: 30%;
+    height: 500px;
+    float: left;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  img{
+    width: 550px;
+
+}
+.slideshow-container {
+    max-width: 650px;
+    position: relative;
+    margin: auto;
+    padding-top: 10px;
+
+    
+  }
+
+  .mySlides {
+    display: all;
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    text-align: center;
+   
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  
+  .kärnkraft {
+    -webkit-animation-name: kärnkraft;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    text-align: center;
+  }
+  
+  @-webkit-keyframes kärnkraft {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes kärnkraft {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
